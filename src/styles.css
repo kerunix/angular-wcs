@@ -1,1 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  background-color: lightgray;
+  border-radius: 0;
+  margin-right: 16px;
+  margin-left: 16px;
+  width: 64px;
+  height: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+a:visited {
+  color: black;
+}
+
+.navbar {
+  width: 100%;
+  height: 64px;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container {
+  margin: auto;
+  max-width: 70%;
+}
+
+.article-card {
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  padding: 24px;
+  margin-bottom: 16px;
+}
+
+.like-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
